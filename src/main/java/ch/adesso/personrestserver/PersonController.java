@@ -24,7 +24,7 @@ public class PersonController {
 	        } catch (InterruptedException e) {
 	        }
     	}
-        return Arrays.asList(new Person(name + "1", "Markus"), new Person(name + "2", "Christoph"), new Person(name + "3", "Heidi"));
+        return Arrays.asList(new Person(1, name + "1", "Markus"), new Person(2, name + "2", "Christoph"), new Person(3, name + "3", "Heidi"));
     }
 
 }
